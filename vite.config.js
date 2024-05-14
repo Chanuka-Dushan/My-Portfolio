@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/dushans-portfolio/', // base URL for GitHub Pages
+  base: '/dushans-portfolio/', 
 });
 
