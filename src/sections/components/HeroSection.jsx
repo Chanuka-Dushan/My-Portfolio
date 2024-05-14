@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile-2.png'
+import profile from '../assets/6.png'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../partials/framer-motion'
 
@@ -16,8 +16,9 @@ const HeroSection = () => {
         <div className='md:col-span-1 col-span-2 md:order-1 order-2 grid place-items-center'>
           <div className="grid place-content-center">
             <span className='text-3xl md:text-4xl lg:text-8xl   2xl:text-9xl mb-1 font-semibold tracking-widest'>Hi,</span>
-            <p className='text-3xl md:text-4xl lg:text-6xl   2xl:text-7xl mb-5 font-semibold tracking-widest'>I'm Risiidhan Punniymoorthy</p>
-            <p className='text-base   2xl:text-4xl tracking-widest mb-5'>Software engineer | BEng in (Hons) | Full-Stack Developer</p>
+            <p className='text-3xl md:text-4xl lg:text-6xl   2xl:text-7xl mb-5 font-semibold tracking-widest'>I'm Dushan Chanuka</p>
+            <p className='text-base   2xl:text-4xl tracking-widest mb-5'>
+"Software Engineer | Undergraduate at SLIIT | Full-Stack Developer"</p>
             <div className='typewriter'>
               <p className='text-base   2xl:text-4xl tracking-widest'>WELCOME TO MY PORTFOLIO</p>
             </div>

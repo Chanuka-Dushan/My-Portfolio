@@ -32,7 +32,7 @@ const Stats = () => {
                         md:order-1 order-2 grid place-items-center md:place-items-center
                         px-6 py-6
                         '>
-                    <img src={`https://github-readme-stats.vercel.app/api/top-langs?username=risiidhan&showicons=true&locale=en&layout=compact&theme=bear&hide_border=true&card_width=${statWidth}px&line_height=50`} alt="" />
+                    <img src={`https://github-readme-stats.vercel.app/api/top-langs?username=chanuka-Dushan&showicons=true&locale=en&layout=compact&theme=bear&hide_border=true&card_width=${statWidth}px&line_height=50`} alt="" />
                 </div>
                 <motion.div
                     id="stats-title"

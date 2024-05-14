@@ -1,9 +1,7 @@
 export async function getRepos() {
     try {
-        const response = await fetch('https://api.github.com/users/risiidhan/starred', {
-            headers: {
-                Authorization: `token ${import.meta.env.VITE_API_TOKEN}`,
-            },
+        const response = await fetch('https://api.github.com/users/Chanuka-Dushan/repos', {
+           
         });
 
         if (response.ok) {

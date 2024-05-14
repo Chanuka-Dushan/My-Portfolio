@@ -36,7 +36,7 @@ const Projects = () => {
             Projects
             <br />
             <a className='text-sm md:text-md lg:text-lg   2xl:text-4xl mb-5 underline underline-offset-8  cursor-pointer'
-              onClick={() => window.open('https://github.com/Risiidhan?tab=repositories', "_blank")}>
+              onClick={() => window.open('https://github.com/Chanuka-Dushan?tab=repositories', "_blank")}>
               View All Projects - Github
             </a>
           </span>

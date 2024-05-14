@@ -50,7 +50,7 @@ const Form = () => {
                                 <label htmlFor="From" className="block text-sm 2xl:text-3xl font-medium leading-6 ">Name</label>
                                 <div className="mt-2">
                                     <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                        <input type="text" name="from_name" id="from" autoComplete="from" className="block flex-1 border-0 bg-transparent py-1.5 pl-2  placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="janesmith" />
+                                        <input type="text" name="from_name" id="from" autoComplete="from" className="block flex-1 border-0 bg-transparent py-1.5 pl-2  placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="yourname" />
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const Form = () => {
                                 <label htmlFor="From" className="block text-sm 2xl:text-3xl font-medium leading-6 ">Email</label>
                                 <div className="mt-2">
                                     <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                        <input type="email" required name="user_email" id="from" autoComplete="from" className="block flex-1 border-0 bg-transparent py-1.5 pl-2  placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="janesmith@gmail.com" />
+                                        <input type="email" required name="user_email" id="from" autoComplete="from" className="block flex-1 border-0 bg-transparent py-1.5 pl-2  placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="youremail@gmail.com" />
                                     </div>
                                 </div>
                             </div>
