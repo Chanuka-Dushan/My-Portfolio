@@ -1,18 +1,22 @@
 {
-  "homepage": "https://Chanuka-Dushan.github.io/my-portfolio/",
+  "homepage": "https://Chanuka-Dushan.github.io/My-Portfolio",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "dev": "vite",
+  
+      "build": "vite build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist",
+  
+    
     "start": "react-scripts start",
-    "build": "react-scripts build",
+   
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "dotenv": "^16.4.5",
