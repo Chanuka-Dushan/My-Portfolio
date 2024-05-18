@@ -1,9 +1,7 @@
-import path from 'path';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
-import { defineConfig } from 'webpack';
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
-export default defineConfig({
+module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
@@ -39,4 +37,4 @@ export default defineConfig({
         compress: true,
         port: 9000,
     },
-});
+};
