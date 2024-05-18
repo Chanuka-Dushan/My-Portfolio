@@ -33,7 +33,7 @@ const Contact = () => {
                     className='md:col-span-2 col-span-4 md:order-2 order-1 grid place-items-center'>
                     <span className='text-3xl md:text-3xl lg:text-5xl  2xl:text-7xl mb-5 font-semibold'>
                         Connect with me
-                        <div className='flex justify-center gap-6  2xl:gap-12 py-6'>
+                        {/* <div className='flex justify-center gap-6  2xl:gap-12 py-6'>
                             <a className='w-9 h-9  2xl:w-16' href="https://x.com/risiidhan" target="blank">
 
                                 <svg viewBox="0 0 128 128">
@@ -44,7 +44,7 @@ const Contact = () => {
                             <a className='w-9 h-9  2xl:w-16' href="https://www.linkedin.com/in/risiidhan/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="risiidhan punniyamoorthy" /></a>
                             <a className='w-9 h-9  2xl:w-16' href="https://instagram.com/risiidhan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="risiidhan" /></a>
                             <a className='w-9 h-9  2xl:w-16' href="https://www.hackerrank.com/rkishon4" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="risiidhan" /></a>
-                        </div>
+                        </div> */}
                     </span>
                 </motion.div>
             </motion.div>
