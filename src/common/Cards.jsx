@@ -46,7 +46,7 @@ const Cards = ({ prop }) => {
     if (!prop) return null;
 
     return (
-        <div ref={cardRef} className="inner-glass-effect px-6 py-3 card-container">
+        <div ref={cardRef} className="inner-glass-effect px-6 py-3 card-container focus">
             <div className="flex items-center justify-between py-2">
                 <div className='w-6 h-6 2xl:w-9 2xl:h-9 flex gap-2'>
                     {renderIcons()}
