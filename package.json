@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "webpack serve --mode development",
-    "build": "babel src --out-dir dist --extensions \".jsx,.js\",",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
