@@ -48,19 +48,28 @@ const Form = () => {
                         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
 
                             <div className="col-span-full">
-                                <label htmlFor="From" className="block text-sm 2xl:text-3xl font-medium leading-6">Name</label>
+                                <label htmlFor="from_name" className="block text-sm 2xl:text-3xl font-medium leading-6">Name</label>
                                 <div className="mt-2">
                                     <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                        <input type="text" name="from_name" id="from" autoComplete="from" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="yourname" />
+                                        <input type="text" name="from_name" id="from_name" autoComplete="from_name" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="yourname" />
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-span-full">
-                                <label htmlFor="From" className="block text-sm 2xl:text-3xl font-medium leading-6">Email</label>
+                                <label htmlFor="user_email" className="block text-sm 2xl:text-3xl font-medium leading-6">Email</label>
                                 <div className="mt-2">
                                     <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                        <input type="email" required name="user_email" id="from" autoComplete="from" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="youremail@gmail.com" />
+                                        <input type="email" required name="user_email" id="user_email" autoComplete="user_email" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="youremail@gmail.com" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-span-full">
+                                <label htmlFor="to_name" className="block text-sm 2xl:text-3xl font-medium leading-6">Recipient Name</label>
+                                <div className="mt-2">
+                                    <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
+                                        <input type="text" name="to_name" id="to_name" autoComplete="to_name" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="Recipient Name" />
                                     </div>
                                 </div>
                             </div>
@@ -69,15 +78,15 @@ const Form = () => {
                                 <label htmlFor="subject" className="block text-sm 2xl:text-3xl font-medium leading-6">Subject</label>
                                 <div className="mt-2">
                                     <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                        <input required type="text" name="subject" id="subject" autoComplete="subject" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" />
+                                        <input required type="text" name="subject" id="subject" autoComplete="subject" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="Subject" />
                                     </div>
                                 </div>
                             </div>
 
                             <div className="col-span-full">
-                                <label htmlFor="Message" className="block text-sm 2xl:text-3xl font-medium leading-6">Message</label>
+                                <label htmlFor="message" className="block text-sm 2xl:text-3xl font-medium leading-6">Message</label>
                                 <div className="mt-2 flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                    <textarea required id="about" name="message" rows="3" className="block w-full rounded-md border-0 py-1.5 px-2 bg-transparent shadow-sm ring-1 ring-inset ring-gray-300 placeholder: focus:ring-2 focus:ring-inset focus:ring-fuchsia-400 sm:text-sm 2xl:text-2xl sm:leading-6"></textarea>
+                                    <textarea required id="message" name="message" rows="3" className="block w-full rounded-md border-0 py-1.5 px-2 bg-transparent shadow-sm ring-1 ring-inset ring-gray-300 placeholder: focus:ring-2 focus:ring-inset focus:ring-fuchsia-400 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="Your message"></textarea>
                                 </div>
                                 {showSuccess && (
                                     <div className='success-response-container items-end pt-2 flex gap-4 text-green-400'>
