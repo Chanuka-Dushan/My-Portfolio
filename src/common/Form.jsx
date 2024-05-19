@@ -66,15 +66,6 @@ const Form = () => {
                             </div>
 
                             <div className="col-span-full">
-                                <label htmlFor="to_name" className="block text-sm 2xl:text-3xl font-medium leading-6">Recipient Name</label>
-                                <div className="mt-2">
-                                    <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
-                                        <input type="text" name="to_name" id="to_name" autoComplete="to_name" className="block flex-1 border-0 bg-transparent py-1.5 pl-2 placeholder: focus:ring-0 sm:text-sm 2xl:text-2xl sm:leading-6" placeholder="Recipient Name" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-span-full">
                                 <label htmlFor="subject" className="block text-sm 2xl:text-3xl font-medium leading-6">Subject</label>
                                 <div className="mt-2">
                                     <div className="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-400">
