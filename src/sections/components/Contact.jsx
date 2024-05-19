@@ -42,7 +42,7 @@ const Contact = () => {
 
                             </a>
                             <a className='w-9 h-9  2xl:w-16' href="https://www.linkedin.com/in/dushan-chanuka?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dushan" /></a>
-                            <a className='w-9 h-9  2xl:w-16' href="https://www.instagram.com/.d_u_s_h_a_n.?igsh=eGJjOHQycXdibmxs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dushan" /></a>
+                            <a className='w-9 h-9  2xl:w-16' href="https://www.instagram.com/_.d_u_s_h_a_n._/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dushan" /></a>
                             {/* <a className='w-9 h-9  2xl:w-16' href="https://www.hackerrank.com/dushan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="dushan" /></a> */}
                         </div>
                     </span>
